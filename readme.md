@@ -4,13 +4,15 @@ I would like to thank this guy as he did a beautiful math implementation of cubi
 
 I've made its usage simplier, so everyone could use it.
 Syntax is beautiful:
-    >spline = new Spline({0: 1, 100: 0})
+
+    spline = new Spline({0: 1, 100: 0})
     <function () { [native code] }
+
     >spline(0)
     <1
-    >spline(1)
-    <0.99
+
     >spline(50)
     <0.5
+
     >spline(100)
     <0
